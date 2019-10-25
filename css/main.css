@@ -244,7 +244,7 @@ body .osn_container .about_me .container_about_me {
   display: -ms-flexbox;
   display: flex;
   padding: 5px;
-  background-image: url("../img/home2.JPG");
+  background-image: url("../img/home2.jpg");
   background-size: cover;
   -webkit-box-pack: end;
       -ms-flex-pack: end;
@@ -780,4 +780,4 @@ body .osn_container .Contacts .container_contacts ul li:first-child {
     width: 100%;
   }
 }
-/*# sourceMappingURL=style.css.map */
+/*# sourceMappingURL=main.css.map */
