@@ -130,6 +130,7 @@ body {
   from {
     margin-top: -200%; }
   to {
+<<<<<<< HEAD
     margin-top: 0%; } }
   body .osn_container li:first-child {
     margin-top: 55px; }
@@ -269,6 +270,251 @@ body {
               margin-right: 10px; }
         body .osn_container .Contacts .container_contacts ul li:first-child {
           margin-top: 0; }
+=======
+    margin-top: 0%;
+  }
+}
+
+body .osn_container li:first-child {
+  margin-top: 55px;
+}
+
+body .osn_container .container {
+  max-width: 1100px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+body .osn_container .about_me .container_about_me {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding: 5px;
+  background-image: url("../img/home2.JPG");
+  background-size: cover;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+  border-radius: 15px;
+}
+
+body .osn_container .about_me .container_about_me img {
+  height: 1rem;
+  border-radius: 15px;
+}
+
+body .osn_container .about_me .container_about_me .container_about_me_text {
+  border-radius: 5px;
+  padding: 1rem;
+  line-height: 1.5;
+  -webkit-backdrop-filter: blur(10px);
+          backdrop-filter: blur(10px);
+  background-color: rgba(255, 255, 255, 0.5);
+  margin: 1em;
+  width: 600px;
+  text-align: left;
+  text-indent: 1.5em;
+}
+
+body .osn_container .my_skills {
+  background-image: url("../img/Skills2.jpg");
+  background-size: cover;
+  background-position-x: center;
+  margin-top: 30px;
+  padding: 15px;
+}
+
+body .osn_container .my_skills .my_skills_container ul {
+  width: 60%;
+  margin: 1rem auto;
+  text-align: left;
+  border-radius: 5px;
+  padding: 1rem 2rem;
+  line-height: 1.5;
+  -webkit-backdrop-filter: blur(10px);
+          backdrop-filter: blur(10px);
+  background-color: rgba(255, 255, 255, 0.5);
+}
+
+body .osn_container .my_skills .my_skills_container ul li {
+  margin: 10px 0;
+}
+
+body .osn_container .work_experience {
+  margin-bottom: 10px;
+}
+
+body .osn_container .work_experience .factor, body .osn_container .work_experience .chudo {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: reverse;
+      -ms-flex-direction: row-reverse;
+          flex-direction: row-reverse;
+  text-align: left;
+  padding: 5px;
+  line-height: 1.5;
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: end;
+  border-radius: 15px;
+}
+
+body .osn_container .work_experience .factor img, body .osn_container .work_experience .chudo img {
+  width: 10%;
+  margin-left: 5px;
+}
+
+body .osn_container .work_experience .factor {
+  background-image: url("../img/factorcorp.jpg");
+  background-size: cover;
+  margin-bottom: 25px;
+}
+
+body .osn_container .work_experience .factor .factor_text {
+  border-radius: 5px;
+  padding: 1rem 2rem;
+  line-height: 1.5;
+  -webkit-backdrop-filter: blur(10px);
+          backdrop-filter: blur(10px);
+  background-color: rgba(255, 255, 255, 0.5);
+  margin: 3em;
+}
+
+body .osn_container .work_experience .factor .factor_text img {
+  display: none;
+}
+
+body .osn_container .work_experience .chudo {
+  background-image: url("../img/chudomarket.jpg");
+}
+
+body .osn_container .work_experience .chudo .chudo_text {
+  border-radius: 5px;
+  padding: 1rem 2rem;
+  line-height: 1.5;
+  -webkit-backdrop-filter: blur(10px);
+          backdrop-filter: blur(10px);
+  background-color: rgba(255, 255, 255, 0.5);
+  margin: 3em;
+}
+
+body .osn_container .work_experience .chudo .chudo_text img {
+  display: none;
+}
+
+body .osn_container li.education a {
+  display: block;
+  content: "";
+  height: 75px;
+  margin: -50px 0 0;
+}
+
+body .osn_container li.education .education_main_container {
+  background-image: url("../img/bg_education.jpg");
+  background-size: cover;
+}
+
+body .osn_container li.education .education_main_container .khai {
+  padding: 15px 0;
+}
+
+body .osn_container li.education .education_khai, body .osn_container li.education .telesens_academy, body .osn_container li.education .nt_school, body .osn_container li.education .a_level {
+  border-radius: 5px;
+  padding: 1rem 2rem;
+  line-height: 1.5;
+  -webkit-backdrop-filter: blur(10px);
+          backdrop-filter: blur(10px);
+  background-color: rgba(255, 255, 255, 0.5);
+  margin-bottom: 30px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+body .osn_container li.education .education_khai img, body .osn_container li.education .telesens_academy img, body .osn_container li.education .nt_school img, body .osn_container li.education .a_level img {
+  width: 15%;
+  margin-right: 5px;
+}
+
+body .osn_container .Contacts {
+  height: 600px;
+  margin-top: 35px;
+  background: url("../img/web-background.jpg");
+}
+
+body .osn_container .Contacts a {
+  height: 40px;
+}
+
+body .osn_container .Contacts .container_contacts {
+  height: -webkit-max-content;
+  height: -moz-max-content;
+  height: max-content;
+}
+
+body .osn_container .Contacts .container_contacts ul {
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-top: 0;
+  -webkit-backdrop-filter: blur(10px);
+          backdrop-filter: blur(10px);
+  background-color: rgba(255, 255, 255, 0.5);
+  padding: 1rem 2rem;
+  border-radius: 15px;
+}
+
+body .osn_container .Contacts .container_contacts ul li {
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+  margin-bottom: 15px;
+}
+
+body .osn_container .Contacts .container_contacts ul li p {
+  height: 100%;
+}
+
+body .osn_container .Contacts .container_contacts ul li p a {
+  margin: 0;
+  height: 100%;
+  color: #002440;
+  font-size: 1.5rem;
+}
+
+body .osn_container .Contacts .container_contacts ul li p a:hover {
+  text-shadow: 3px 4px 5px #000;
+}
+
+body .osn_container .Contacts .container_contacts ul li p i {
+  margin-right: 10px;
+}
+
+body .osn_container .Contacts .container_contacts ul li:first-child {
+  margin-top: 0;
+}
+>>>>>>> 49093b07f196caaa4582089a13df2fd7d225ade6
 
 @font-face {
   font-family: 'icomoon';
@@ -471,9 +717,21 @@ body {
     border-radius: 0; } }
 @media only screen and (max-height: 460px) {
   body header .main_header nav .min_menu ul.menu_list {
+<<<<<<< HEAD
     width: max-content; }
     body header .main_header nav .min_menu ul.menu_list li a {
       padding: 0.7rem;
       width: 100%; } }
 
+=======
+    width: -webkit-max-content;
+    width: -moz-max-content;
+    width: max-content;
+  }
+  body header .main_header nav .min_menu ul.menu_list li a {
+    padding: 0.7rem;
+    width: 100%;
+  }
+}
+>>>>>>> 49093b07f196caaa4582089a13df2fd7d225ade6
 /*# sourceMappingURL=main.css.map */
